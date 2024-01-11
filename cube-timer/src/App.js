@@ -47,6 +47,9 @@ function App() {
           </div>
         ))
       }
+      <div>
+        <button onClick = {fetchTimes}>Fetch Times</button>
+      </div>
     </div>
   );
 }
